@@ -7,12 +7,12 @@
 
 ## Usage
 Interacting with the mars exploration script is as simple as running the following:
-`ruby mars_exploration.rb -icases/example.in -ocases/example.eout`
+- `ruby mars_exploration.rb -icases/example.in -ocases/example.eout`
 
 The script documents it's usage and additional features internally using a `-h` flag.
 
 The `run_tests.rb` script uses the provided cases to ensure that the mars_exploration script is working as expected by testing it's output against a few verified regexes.
-`run_test.rb -v` will allow you to see the output of these test cases.
+- `run_test.rb -v` will allow you to see the output of these test cases.
 
 ## Implementation Notes
 - Realizing the mars rover challenge had no limitations outside of ensuring the rover never leave the plateau defined in the first line of a case, there is no internal map.
